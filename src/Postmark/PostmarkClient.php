@@ -75,7 +75,7 @@ class PostmarkClient extends PostmarkClientBase {
 	 * Send an email using a template.
 	 *
 	 * @param  string $from The sender of the email. (Your account must have an associated Sender Signature for the address used.)
-	 * @param  string $to The recipient of the email.
+	 * @param  string $to The recipient(s) of the email, comma-separated.
 	 * @param  integer $templateId  The ID of the template to use to generate the content of this message.
 	 * @param  array $templateModel  The values to combine with the Templated content.
 	 * @param  boolean $inlineCss  If the template contains an HTMLBody, CSS is automatically inlined, you may opt-out of this by passing 'false' for this parameter.
